@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Bl.Interfaces
 {
-    public class IBusinessLayer<T>
+    public interface IBusinessLayer<T>
     {
-        int BinarySearch(int[] arr, int target);
+        public int BinarySearch(int[] arr, int target);
     }
 }
