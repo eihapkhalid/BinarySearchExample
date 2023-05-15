@@ -29,6 +29,10 @@ namespace BinarySearchExample
 
                  );
             #endregion
+            #region LinearSearch Area
+            uiHelper.PerformBinarySearch();
+            #endregion
+
         }
     }
 }
